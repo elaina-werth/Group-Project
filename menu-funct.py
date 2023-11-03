@@ -1,12 +1,7 @@
 def menu():
-    import random
-    prompt = input('Do you want to chose the numbers? (y or n) ')
-    if prompt == 'y':
-        num1 = int(input('Choose the minimum number: '))
-        num2 = int(input('Choose the maximum number: '))
-        choice = random.randint(num1, num2)
-    if prompt == 'n':
-        num1 = 1
-        num2 = 1000
-        choice = random.randint(num1, num2)
+    print('You can')
+    print('Create a new game,(1)')
+    print('Choose your numbers,(2)')
+    print('and Exit(3)')
+    choice = int(input('What would you like to do? '))
     return choice
