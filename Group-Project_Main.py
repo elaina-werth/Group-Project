@@ -1,4 +1,5 @@
 #Group-Project_Main
+from menu-funct.py import menu
 
 def main():
     #main accepts no arguments
