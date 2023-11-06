@@ -1,5 +1,5 @@
 #Group-Project_Main
-from menu-funct.py import menu
+from menufunct import *
 
 def main():
     #main accepts no arguments
@@ -10,4 +10,14 @@ def main():
     MAX = 1000
     
     #call menu
-    menu()
+    menu_choice = menu()
+    
+    if menu_choice == 1:
+        game (MIN, MAX)
+    elif menu_choice == 2:
+        limit()
+    elif menu_choice == 3:
+        print("Exiting...\nThank you for playing the number game!")
+    else: #validate
+        print("Oops! It looks like your choice wasn't a valid option.")
+        menu_choice = menu()
