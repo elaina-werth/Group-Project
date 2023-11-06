@@ -15,7 +15,7 @@ def main():
     if menu_choice == 1:
         game (MIN, MAX)
     elif menu_choice == 2:
-        limit()
+        MIN, MAX = limit()
     elif menu_choice == 3:
         print("Exiting...\nThank you for playing the number game!")
     else: #validate
