@@ -9,6 +9,6 @@ def menu():
     print('Choose a new range,(2)')
     print('Or Exit(3)\n')
     
-    #collect input from user
+    #collect input from user(s)
     choice = int(input('What would you like to do? '))
     return choice
