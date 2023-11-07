@@ -1,6 +1,8 @@
 #Group-Project_Main
 from menufunct import *
-
+from getnum.py import *
+from limit import *
+from get_name2 import *
 
 def main():
     #main accepts no arguments
