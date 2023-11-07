@@ -16,7 +16,7 @@ def main():
     menu_choice = menu()
     
     if menu_choice == 1:
-
+        random_number = getnumber(MIN, MAX)
         game (MIN, MAX)
     elif menu_choice == 2:
         MIN, MAX = limit()
