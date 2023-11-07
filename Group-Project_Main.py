@@ -20,10 +20,10 @@ def main():
     
     while keep_going == 1:
         if menu_choice == 1:
-            random_number = getnumber(MIN, MAX)
+            random_number = random.randint(MIN, MAX)
             game (MIN, MAX)
         elif menu_choice == 2:
-            MIN, MAX = limit()
+            min_num, max_num = limit()
             menu_choice = menu() #pull up menu again after changing limit
             print()
         elif menu_choice == 3:
