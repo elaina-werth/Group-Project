@@ -1,7 +1,11 @@
 #Group-Project_Main
 from menufunct import *
+<<<<<<< HEAD
 import limit
 import get_name2
+=======
+
+>>>>>>> ccdc3643702d4eccd335eaff41ea8a8fa1bc2c6d
 
 def main():
     #main accepts no arguments
@@ -15,7 +19,7 @@ def main():
     menu_choice = menu()
     
     if menu_choice == 1:
-        number = get_number
+
         game (MIN, MAX)
     elif menu_choice == 2:
         MIN, MAX = limit()
