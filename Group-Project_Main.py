@@ -4,6 +4,7 @@ from getnum import *
 from limit import *
 import random
 from get_name2 import *
+from game import *
 
 def main():
     #main accepts no arguments
@@ -20,8 +21,9 @@ def main():
     
     while keep_going == 1:
         if menu_choice == 1:
-            random_number = getnumber(MIN, MAX)
-            game (MIN, MAX)
+            player1, player2 = get_name2()
+            random_number = get_number(MIN, MAX)
+            game (random_number,MIN, MAX, player1, player2)
         elif menu_choice == 2:
             MIN, MAX = limit()
             menu_choice = menu() #pull up menu again after changing limit
