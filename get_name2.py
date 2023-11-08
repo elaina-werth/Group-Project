@@ -1,4 +1,4 @@
-def get_name():
+def get_name2():
     #gets the names
     player1 = input("What is player one's name? ")
     player2 = input("what is player two's name? ")
