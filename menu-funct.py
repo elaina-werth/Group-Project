@@ -11,4 +11,6 @@ def menu():
     
     #collect input from user
     choice = int(input('What would you like to do? '))
+    while choice > 3 or choice < 1:
+        choice = int(input('What would you like to do? (pick 1,2, or 3) '))
     return choice
