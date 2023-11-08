@@ -13,6 +13,11 @@ def game(random_number, MIN, MAX, player1, player2):
         print(player1, ": Guess a number between", MIN, "and", MAX, end = '')
         player_1_choice = int(input(": "))
         
+        #validate
+        if player_1_choice < MIN or player_1_choice > MAX:
+            print ("Oops! Please enter a valid number." player1, "Guess a number between", MIN, "and", MAX, end = '')
+        player_1_choice = int(input(": "))
+        
         if player_1_choice < random_number:
             print("A little higher!")
         elif player_1_choice > random_number:
