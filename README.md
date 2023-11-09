@@ -34,5 +34,5 @@ Validate all inputs for non-integers and out-of-range guesses.
 
 
 Elaina: 
-#For me, the most challenging part of doing the group project was figuring out how to use the branches on Github; if I was accidentally still in a branch when I was working on main, Github wouldn't allow it to merge and I had to undo the changes. However, I feel like now that I have more experience working in a shared repository, I understand how it works much better and it would be easier to use in the future.
+For me, the most challenging part of doing the group project was figuring out how to use the branches on Github; if I was accidentally still in a branch when I was working on main, Github wouldn't allow it to merge and I had to undo the changes. However, I feel like now that I have more experience working in a shared repository, I understand how it works much better and it would be easier to use in the future.
 
