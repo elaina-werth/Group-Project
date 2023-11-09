@@ -15,15 +15,16 @@ def game(random_number, MIN, MAX, player1, player2):
         
         #validate
         if player_1_choice < MIN or player_1_choice > MAX:
-            print ("Oops! Please enter a valid number." player1, "Guess a number between", MIN, "and", MAX, end = '')
-        player_1_choice = int(input(": "))
+            print ("Oops! Please enter a valid number.\n", player1, ": Guess a number between", MIN, "and", MAX, end = '')
+            player_1_choice = int(input(": "))
         
+        #loop that displays a message based on player 1's guess
         if player_1_choice < random_number:
             print("A little higher!")
         elif player_1_choice > random_number:
             print("A little lower!")
         else:
-            print ("Congratulations, you have guessed the number!")
+            print ("Congratulations, you have guessed the number!\n")
             keepgoing = 0
             break
             
@@ -31,6 +32,12 @@ def game(random_number, MIN, MAX, player1, player2):
         print (player2, ": Guess a number between", MIN, "and", MAX, end = '')
         player_2_choice = int(input(": "))
         
+        #validate
+        if player_2_choice < MIN or player_2_choice > MAX:
+            print ("Oops! Please enter a valid number.\n", player2, ": Guess a number between", MIN, "and", MAX, end = '')
+            player_2_choice = int(input(": "))
+        
+        #loop that displays a message based on player 2's guess
         if player_2_choice < random_number:
             print("A little higher!")
         elif player_2_choice > random_number:
