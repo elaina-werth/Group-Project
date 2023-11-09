@@ -23,6 +23,7 @@ def main():
     #loop menu
     while keep_going == 1:
         if menu_choice == 1:
+            #collect names, the number to be guessed, and begin game
             player1, player2 = get_name2()
             random_number = get_number(MIN, MAX)
             game (random_number,MIN, MAX, player1, player2)
